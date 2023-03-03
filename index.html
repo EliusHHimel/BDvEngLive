@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Bangladesh v England Match</title>
+    <style>
+        body{
+            background: #000;
+            color: white;
+           }
+        video{
+            border: 1px solid white;
+        }
+    </style>
+</head>
+<body>
+
+<link href="https://vjs.zencdn.net/7.2.3/video-js.css" rel="stylesheet">
+
+<center>
+    <h2>Watch Bangladesh v England Live</h2>
+<!-- HTML -->
+<video id='hls-example'  class="video-js vjs-default-skin" height="500" width="800" controls>
+<source type="application/x-mpegURL" src="https://cric.durbinlive.com/GTV/tracks-v1a1/mono.m3u8?token=test1">
+</video>
+
+<!-- Counter -->
+<div style="margin-top: 20px;" id="sfckf5cgln279u7qwmdct457bfjhsybde5u"></div><script type="text/javascript" src="https://counter4.optistats.ovh/private/counter.js?c=kf5cgln279u7qwmdct457bfjhsybde5u&down=async" async></script><noscript><a href="https://www.freecounterstat.com" title="web page counter"><img src="https://counter4.optistats.ovh/private/freecounterstat.php?c=kf5cgln279u7qwmdct457bfjhsybde5u" border="0" title="web page counter" alt="web page counter"></a></noscript>
+</center>
+
+<!-- JS code -->
+<!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+<script src="https://vjs.zencdn.net/ie8/ie8-version/videojs-ie8.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls/5.14.1/videojs-contrib-hls.js"></script>
+<script src="https://vjs.zencdn.net/7.2.3/video.js"></script>
+
+<script>
+var player = videojs('hls-example');
+player.play();
+</script>
+</body>
+</html>
